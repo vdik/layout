@@ -497,6 +497,9 @@ body {
         width: 100%;
         overflow: hidden;
     }
+    .send {
+	    padding: 30px 15px;
+	}
 }
 
 @media (max-width: 424px) { 
