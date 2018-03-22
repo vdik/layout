@@ -473,7 +473,8 @@ body {
 
 @media (max-width: 878px) { 
     .content_section {
-        flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    justify-content: center;
     }
     .content-left {
         order: 2;
@@ -483,7 +484,10 @@ body {
     }
     .about {
         max-width: 100%;
-    }   
+    }
+    .about h2 {
+		text-align: center;
+	}  
 }
 
 @media (max-width: 710px) { 
